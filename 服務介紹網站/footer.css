@@ -1,0 +1,50 @@
+.contact-footer {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr auto;
+  align-items: start;
+  gap: 32px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: var(--paper);
+}
+.contact-footer p { display: block; }
+.contact-footer .footer-company {
+  margin: 16px 0 5px;
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer-contact { min-width: 0; }
+.footer-contact h2 {
+  margin: 0 0 18px;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+.footer-contact address { font-style: normal; }
+.footer-contact address > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin-bottom: 12px;
+}
+.footer-contact address > div > span {
+  width: 100px;
+  color: #62625d;
+  font-size: 13px;
+}
+.footer-contact address a {
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-size: 15px;
+}
+.footer-contact a:hover, .footer-top:hover { color: var(--orange); }
+.footer-contact small { color: #62625d; font-size: 12px; }
+.footer-top { white-space: nowrap; }
+@media (max-width: 950px) {
+  .contact-footer { grid-template-columns: 1fr 1.25fr; }
+  .footer-top { grid-column: 1 / -1; }
+}
+@media (max-width: 680px) {
+  .contact-footer { grid-template-columns: 1fr; gap: 28px; }
+}
