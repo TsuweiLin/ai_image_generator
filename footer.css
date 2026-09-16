@@ -1,4 +1,9 @@
 /* Compact landing-page accents. */
+.service-fit-hint { margin: 12px 0 0; max-width: 380px; font-size: 13px; line-height: 1.7; color: #62625d; }
+.service-fit-hint a { color: #a82d0b; text-decoration: underline; text-underline-offset: 3px; }
+.service-fit { grid-column: 1 / -1; padding: 18px 22px; border-left: 4px solid var(--orange); border-radius: 6px; background: #fff5ee; scroll-margin-top: 24px; }
+.service-fit h2 { margin: 0 0 10px; font-size: 18px; letter-spacing: 0; }
+.contact-footer .service-fit p { display: block; margin: 6px 0 0; font-size: 14px; line-height: 1.8; color: var(--ink); }
 .sales-results.section { padding-top: 36px; padding-bottom: 36px; border-top: 1px solid var(--line); }
 .sales-results h2 { margin: 0; font-size: 28px; }
 .sales-results .empty-sales { min-height: 0; margin-top: 16px; }
