@@ -3,4 +3,8 @@
 __pycache__/
 *.pyc
 所有客戶
-lovart通用prompt
+lovart
+QA測試
+Shopee_mass_upload_2026-10-02_basic_template.xlsx
+test_batch_flow.py
+test_shopee_api.py

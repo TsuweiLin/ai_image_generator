@@ -1,4 +1,5 @@
 /* Compact landing-page accents. */
+.minimum-order { margin: 0 0 12px; color: #a82d0b; font-size: 15px; font-weight: 700; }
 .visual-workflow { list-style: none; padding: 0; margin: 0 0 28px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
 .visual-workflow li { position: relative; padding: 18px 12px; text-align: center; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
 .visual-workflow li + li::before { content: "→"; position: absolute; left: -25px; top: 50%; transform: translateY(-50%); width: 24px; text-align: center; line-height: 1; color: var(--orange); font-size: 23px; }
